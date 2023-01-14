@@ -2,6 +2,7 @@ import React from 'react';
 import {auth, provider} from "../config/Firebase.ts";
 import { signInWithPopup } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
+import "../style/Login.css";
 
 
 // import { useAuthState } from 'react-firebase-hooks/auth';
@@ -23,8 +24,10 @@ const Login = () => {
 
   return (
     <>
-    <div>Login</div>
-      <Button colorScheme="facebook"  onClick={signInWithGoogle}>Sign in Google</Button>
+    <div id='login'>
+
+      <Button id="login-btn" colorScheme="facebook"  onClick={signInWithGoogle}>Sign in Google</Button>
+    </div>
     </>
   )
 }
