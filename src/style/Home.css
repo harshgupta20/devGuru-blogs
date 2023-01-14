@@ -1,0 +1,23 @@
+.home{
+    /* background-color: #FFBF00; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+
+    background-image: url("../img/5297078.jpg");
+}
+.feed{
+    max-width: 100%;
+    max-height: 90%;
+    overflow-y: scroll;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* border: 2px solid red; */
+    /* background-color: none; */
+    /* opacity: 0; */
+    /* background-color: rgba(255, 0, 0, 0.4); */
+}
+.feed::-webkit-scrollbar{
+    display: none;
+}

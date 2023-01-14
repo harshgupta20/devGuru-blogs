@@ -1,0 +1,31 @@
+.navbar{
+    width: 100%;
+    padding: 20px;
+    background-color: #540375;
+}
+.navbar-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-li{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+.nav-auth-data{
+    text-align: center;
+    font-size: 13px;
+}
+.nav-img{
+    width: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}

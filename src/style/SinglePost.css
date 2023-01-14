@@ -1,0 +1,19 @@
+.single-post {
+    box-shadow: 1px -1px 18px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px -1px 18px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px -1px 18px 3px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+}
+
+.sp-btn {
+    margin: 5px;
+}
+
+#sp-txt {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+#sp-txt::-webkit-scrollbar {
+    display: none;
+}
